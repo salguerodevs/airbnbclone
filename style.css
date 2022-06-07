@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(248, 200, 141, 0.523);
+}
+
+#container {
+    width: 90%;
+    margin: 2% auto;
+    background: lightgray;
+    margin: 2% auto;
+    /*padding: 2.5rem;*/
+    border-radius: 2%;
+    /*border: 1px solid rgb(7, 16, 92);*/
+    
+}
+
+    #header{
+        background: rgb(240, 215, 215);
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /*align-items: center;*/
+        padding: 2em;
+    }
+
+    #logo{
+      margin-left: 2px;
+      padding: 2em;
+    }
+
+    .redes{
+        display:flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    .instagram{
+        margin-left: 3%;
+    }
+
+    .youtube{
+        margin-left: 3%;
+    }
+
+    .twitter{
+        margin-left: 3%;
+    }
+
+    #titulo{
+        width: 100%;
+        color: rgb(253, 255, 255);
+        text-align: center;
+        font-size: 20 px;
+        background-color: rgb(58, 59, 103);
+    }
+
+    .menu{
+        width: 100%;
+        min-height: 40px;
+        background: rgba(250, 248, 249, 0.634);
+        color: rgb(0, 6, 11);
+        border: 1px dashed black;
+    }
+
+    .menu ul:hover{
+        background-color: rgb(179, 179, 221);
+    }
+
+    .menu ul li{
+        background-color: rgb(1, 1, 37);
+        color: white;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+
+    }
+
+    .menu ul li:hover{
+        background-color: rgb(138, 13, 13);
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 1%;
+    }
+
+    .banner{
+       margin: 2px auto;
+       width: 100%;
+    }
+
+  
+    #productos{
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+    }
+   
+    
+    .content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        color: blanchedalmond;
+        background: black;
+        margin-top: 60%;
+        padding: 1%;
+        text-align: justify;
+        
+    }
+
+    .p1 {
+    background-image: url("img/hospedaje1.jpg");
+    width: 40%;
+    height: 400px;
+    background-size: cover;
+    margin: 2% auto;
+    
+    }
+
+    .p2 {
+    background-image: url("img/hospedaje2.jpg");
+    width: 40%;
+    height: 400px;
+    background-size: cover;
+    margin: 2% auto;
+    }
+
+    .p3 {
+    background-image: url("img/hospedaje3.jpg");
+    width: 40%;
+    height: 400px;
+    background-size: cover;
+    margin: 2% auto;
+    }
+
+    .p4 {
+    background-image: url("img/hospedaje4.jpg");
+    width: 40%;
+    height: 400px;
+    background-size: cover;
+    margin: 2% auto;
+    }
+    
+    .pie{
+        width: 100%;
+        height: 60px;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+        background: black;
+        border: 1px solid white;
+        margin-top: 3%;
+    }
