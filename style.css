@@ -41,8 +41,9 @@ body{
         display:flex;
         flex-direction: row;
         align-self: center;
-        justify-content: center;
+        justify-content: right;
         width: 40%;
+        margin-right: 1em;
     }
 
     .instagram{
