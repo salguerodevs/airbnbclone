@@ -41,7 +41,7 @@ body{
         display:flex;
         flex-direction: row;
         align-self: center;
-        justify-content: end;
+        margin: 1% ;
         width: 40%;
        
         
