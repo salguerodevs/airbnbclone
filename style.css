@@ -43,7 +43,7 @@ body{
         align-self: center;
         justify-content: right;
         width: 40%;
-        margin-right: 1em;
+        padding: 15px;
     }
 
     .instagram{
