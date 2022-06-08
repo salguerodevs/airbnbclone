@@ -41,9 +41,7 @@ body{
         display:flex;
         flex-direction: row;
         align-self: center;
-        margin: 1% ;
-        float: right;
-        width: 40%;
+        margin-right: 2% ;
        
         
     }
