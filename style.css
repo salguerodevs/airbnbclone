@@ -41,6 +41,7 @@ body{
         display:flex;
         flex-direction: row;
         align-self: center;
+        justify-content: right;
         margin-right: 2% ;
        
         
