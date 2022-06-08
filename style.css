@@ -16,32 +16,33 @@ body{
     margin: 2% auto;
     background: lightgray;
     margin: 2% auto;
-    /*padding: 2.5rem;*/
-    border-radius: 2%;
-    /*border: 1px solid rgb(7, 16, 92);*/
-    
+    padding: 1rem;
+    border-radius: 1.5%;
 }
 
     #header{
         background: rgb(240, 215, 215);
         width: 100%;
-        height: 70px;
+        min-height: 70px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /*align-items: center;*/
-        padding: 2em;
+        /*padding: 1.5em;*/
+        
     }
 
     #logo{
-      margin-left: 2px;
-      padding: 2em;
+      align-self: center;
+      padding: 1%;
+
     }
 
     .redes{
         display:flex;
         flex-direction: row;
-        justify-content: right;
+        align-self: center;
+        justify-content: center;
+        width: 40%;
     }
 
     .instagram{
@@ -72,10 +73,6 @@ body{
         border: 1px dashed black;
     }
 
-    .menu ul:hover{
-        background-color: rgb(179, 179, 221);
-    }
-
     .menu ul li{
         background-color: rgb(1, 1, 37);
         color: white;
@@ -86,9 +83,11 @@ body{
     }
 
     .menu ul li:hover{
-        background-color: rgb(138, 13, 13);
-    }
-
+        background-color: rgb(190, 13, 13);
+        cursor: pointer;
+     }
+     
+     
     .menu ul {
         display: flex;
         flex-direction: row;
@@ -96,18 +95,39 @@ body{
         margin: 1%;
     }
 
+    .active{
+        background-color: rgb(244, 9, 17);
+        color: black;
+      }
+
+   
     .banner{
-       margin: 2px auto;
+       margin: 1% auto;
        width: 100%;
+       height: auto;
+       float: left;
+       display: block;
+       clear: none;
+       margin-bottom: 3.5em;
+    }
+    
+  
+    .destacados{
+        width: 100%;
+        text-align: center;
+        font-family: fantasy;
+        font-size: 3rem;
+        color: rgb(247, 247, 255);
+        text-shadow: rgb(0, 0, 8) 5px 3px 5px;
     }
 
-  
     #productos{
     width: 100%;    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+   
     
     }
    
@@ -166,4 +186,5 @@ body{
         background: black;
         border: 1px solid white;
         margin-top: 3%;
+        border-radius: 2%;
     }
