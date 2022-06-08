@@ -42,7 +42,8 @@ body{
         flex-direction: row;
         align-self: center;
         width: 40%;
-       justify-content: end;
+       justify-content: center;
+       margin: 3%;
         
     }
 
