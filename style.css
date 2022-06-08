@@ -37,6 +37,11 @@ body{
 
     }
 
+    .burguer{
+        align-self: center;
+        padding: 1%; 
+    }
+
     .redes{
         display:flex;
         flex-direction: row;
