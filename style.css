@@ -42,8 +42,7 @@ body{
         flex-direction: row;
         align-self: center;
         width: 40%;
-        padding: 10px;
-        margin: 10px;
+       justify-content: right;
         
     }
 
