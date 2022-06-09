@@ -7,41 +7,11 @@
     <title>Curso de AirBNB</title>
     <script src="https://kit.fontawesome.com/8451b4edca.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=629f8b31703b77001ade9d57&product=sop' async='async'></script>
 
     <link rel="stylesheet" href="style.css">
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=629f8b31703b77001ade9d57&product=sop' async='async'></script>
 </head>
 <body>
-    <!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "315022955811248");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
   <main id="container">
       <header id="header">
         <div id="logo">
@@ -59,20 +29,29 @@
         </div>
       </header>
       
-    <nav class="menu">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="logo.png" alt="" class="logo">
+        </a>
         <ul>
-            <li><a class="active" href="index.html"></a>INICIO</li>
-            <li><a href="nosotros.html"></a>NOSOTROS</li>
-            <li><a href="productos.html"></a>PRODUCTOS</li>
-            <li><a href="www.google.com" target="_blank"></a>CONTACTO</li>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
+    <section></section>
     <div id="titulo">
-      <H1>LAS MEJORES HABITACIONES DEL MUNDO</H1>
+      <H1>HABITACIONES DE LUJO</H1>
     </div>
   
     <div class="banner">
-        <center><img src="img/bg.gif" width="1200" height="400" alt="banner"/></center>
+        <center><img src="img/bg.gif" width="100%" alt="banner"/></center>
     </div>
     
     <h2 class="destacados">PRODUCTOS DESTACADOS</h2>
