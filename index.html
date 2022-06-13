@@ -12,36 +12,39 @@
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=629f8b31703b77001ade9d57&product=sop' async='async'></script>
 </head>
 <body>
-    <!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
+  <!-- Inicio de plugin de Messenger -->
+  <!-- Messenger Plugin de chat Code -->
+  <div id="fb-root"></div>
 
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+  <!-- Your Plugin de chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "315022955811248");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "315022955811248");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v14.0'
+      });
+    };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Fin de plugin de Messenger -->
+
   <main id="container">
       <header id="header">
         <div id="logo">
@@ -52,10 +55,11 @@
         </div>
         <div class="redes">
             
-            <div class="facebook"><a href="https://www.facebook.com" target="_blank"><box-icon type='logo' name='facebook-circle'></box-icon></a></div>
-            <div class="instagram"><a href="https://www.instagram.com" target="_blank"><box-icon type='logo' name='instagram'></box-icon></a></div>
-            <div class="youtube"><a href="https://www.youtube.com" target="_blank"><box-icon type='logo' name='youtube'></box-icon></a></div>
-            <div class="twitter"><a href="https://www.twitter.com" target="_blank"><box-icon type='logo' name='twitter'></box-icon></a></div>
+            <div class="facebook"><a href="https://www.facebook.com/mediafox360" target="_blank"><box-icon type='logo' name='facebook-circle'></box-icon></a></div>
+            <div class="instagram"><a href="https://www.instagram.com/mediafox360" target="_blank"><box-icon type='logo' name='instagram'></box-icon></a></div>
+            <div class="youtube"><a href="https://bit.ly/mychannel-youtube" target="_blank"><box-icon type='logo' name='youtube'></box-icon></a></div>
+            <div class="twitter"><a href="https://twitter.com/DenisSalguero10" target="_blank"><box-icon type='logo' name='twitter'></box-icon></a></div>
+            <div class="github"><a href="https://github.com/DenisSalgueroDev" target="_blank"><box-icon type='logo' name='github'></box-icon></a></div>
         </div>
       </header>
       
@@ -77,7 +81,7 @@
     </nav>
     <section></section>
     <div id="titulo">
-      <H1>HABITACIONES DE LUJO</H1>
+      <h1>HABITACIONES DE LUJO</h1>
     </div>
   
     <div class="banner">
@@ -115,7 +119,7 @@
         </article>
         
     </section>
-  <footer class="pie">Mediafox360|Agencia de Diseño Web, Todos los derechos reservados 2022</footer>  
+  <footer class="pie">Todos los derechos reservados &copy <a href="www.mediafox360.com" target="_blank">Mediafox360</a></footer>  
 
   </main>
  <script src="app.js"></script>

@@ -6,7 +6,7 @@
     list-style: none;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(248, 200, 141, 0.523);
 }
@@ -15,259 +15,288 @@ body{
     width: 90%;
     margin: 2% auto;
     background: lightgray;
-    margin: 2% auto;
     padding: 1rem;
     border-radius: 1.5%;
 }
 
-    #header{
-        background: rgb(240, 215, 215);
-        width: 100%;
-        min-height: 70px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /*padding: 1.5em;*/
-        
-    }
+#header {
+    background: rgb(240, 215, 215);
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*padding: 1.5em;*/
 
-    #logo{
-      align-self: center;
-      padding: 1%;
+}
 
-    }
+#logo {
+    align-self: center;
+    padding: 1%;
 
-    .burguer{
-        align-self: center;
-        padding: 1%; 
-    }
+}
 
-    .redes{
-        display:flex;
-        flex-direction: row;
-        align-self: center;
-        justify-content: right;
-        margin-right: 2% ;
-       
-        
-    }
+.burguer {
+    align-self: center;
+    padding: 1%;
+}
 
-    .instagram{
-        margin-left: 3%;
-    }
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: right;
+    margin-right: 2%;
 
-    .youtube{
-        margin-left: 3%;
-    }
 
-    .twitter{
-        margin-left: 3%;
-    }
+}
 
-    #titulo{
-        width: 100%;
-        float: left;
-        display: block;
-        clear: none;
-        color: rgb(253, 255, 255);
-        text-align: center;
-        font-size: 1em;
-        background-color: rgb(58, 59, 103);
-    }
+.instagram {
+    margin-left: 3%;
+}
 
-    nav{
-        background: #2fcdcd;
-        height: 80px;
-        width: 100%;
-    }
-    .enlace{
-        position: absolute;
-        padding: 20px 50px;
-    }
-    .logo{
-        height: 40px;
-    }
-    nav ul{
-        float: right;
-        margin-right: 20px;
-    }
-    nav ul li{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 5px;
-    }
-    nav ul li a{
-        color: #fff;
-        font-size: 18px;
-        padding: 7px 13px;
-        border-radius: 3px;
-        text-transform: uppercase;
-    }
-    li a.active, li a:hover{
-        background: #000090;
-        transition: .5s;
-    }
-    .checkbtn{
-        font-size: 30px;
-        color: #fff;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-    }
-    #check{
-        display: none;
-    }
+.youtube {
+    margin-left: 3%;
+}
 
-    /* Inicio de Media Queries del Menu */
-    @media (max-width: 952px){
-        .enlace{
-            padding-left: 20px;
-        }
-        nav ul li a{
-            font-size: 16px;
-        }
-    }
+.twitter {
+    margin-left: 3%;
+}
 
-    /* Inicio de Media Queries del Menu */
-    @media (max-width: 858px){
-        .checkbtn{
-            display: block;
-        }
-        ul{
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            background: #2c3e50;
-            top: 80px;
-            left: -100%;
-            text-align: center;
-            transition: all .5s;
-        }
-        nav ul li{
-            display: block;
-            margin: 50px 0;
-            line-height: 30px;
-        }
-        nav ul li a{
-            font-size: 20px;
-        }
-        li a:hover, li a.active{
-            background: none;
-            color: red;
-        }
-        #check:checked ~ ul{
-            left:0;
-        }
+#titulo {
+    width: 100%;
+    float: left;
+    display: block;
+    clear: none;
+    color: rgb(253, 255, 255);
+    text-align: center;
+    font-size: 1em;
+    background-color: rgb(58, 59, 103);
+}
 
-       .banner{  
-            display: block;
-            clear: none;
-            float:left;
-            width: 100%;
-        }
+nav {
+    background: #f16e2d;
+    height: 80px;
+    width: 100%;
+}
 
-        #container {
-            width: 100%;
-            max-width: 858px;
-            background: lightgray;
-            margin: 2% auto;
-            padding: 1rem;
-            border-radius: 1.5%;
-        }
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
 
-        #productos{
-            width: 100%;    
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-        }
-        
-        .producto{
-            width: 50% ;
-        }
-    }
+.logo {
+    height: 40px;
+}
 
-    /* Fin de MediaQueries del Menu */
-   
-    .banner{
-       margin: 1% auto;
-       width: 100%;
-       height: auto;
-       float: left;
-       display: block;
-       clear: none;
-       margin-bottom: 3.5em;
-    }
-    
-  
-    .destacados{
-        width: 100%;
-        text-align: center;
-        font-family: fantasy;
-        font-size: 3rem;
-        color: rgb(247, 247, 255);
-        text-shadow: rgb(0, 0, 8) 5px 3px 5px;
-    }
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
 
-    #productos{
-    width: 100%;    
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active,
+li a:hover {
+    background: #000090;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.banner {
+    margin: 1% auto;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    clear: none;
+    margin-bottom: 3.5em;
+}
+
+
+.destacados {
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3rem;
+    color: rgb(247, 247, 255);
+    text-shadow: rgb(0, 0, 8) 5px 3px 5px;
+}
+
+#productos {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-       
-    }
-   
-    
-    .content{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        color: blanchedalmond;
-        background: black;
-        margin-top: 60%;
-        padding: 1%;
-        text-align: justify;
-        
-    }
 
-    .p1 {
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: blanchedalmond;
+    background: black;
+    margin-top: 60%;
+    padding: 1%;
+    text-align: justify;
+
+}
+
+.p1 {
     background-image: url("img/hospedaje1.jpg");
     width: 40%;
     height: 400px;
     background-size: cover;
     margin: 2% auto;
-    
-    }
 
-    .p2 {
+}
+
+.p2 {
     background-image: url("img/hospedaje2.jpg");
     width: 40%;
     height: 400px;
     background-size: cover;
     margin: 2% auto;
-    }
+}
 
-    .p3 {
+.p3 {
     background-image: url("img/hospedaje3.jpg");
     width: 40%;
     height: 400px;
     background-size: cover;
     margin: 2% auto;
-    }
+}
 
-    .p4 {
+.p4 {
     background-image: url("img/hospedaje4.jpg");
     width: 40%;
     height: 400px;
     background-size: cover;
     margin: 2% auto;
+}
+
+.pie {
+    width: 100%;
+    height: 60px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    background: black;
+    border: 1px solid white;
+    margin-top: 3%;
+    border-radius: 2%;
+}
+
+@media (max-width: 565px) {
+    .checkbtn {
+        display: block;
     }
-    
-    .pie{
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 190px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        color: red;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .burguer{
+        display:none
+    }
+
+    .banner {
+        display: block;
+        clear: none;
+        float: left;
+        width: 100%;
+    }
+
+    #container {
+        width: 100%;
+        max-width: 565px;
+        background: lightgray;
+        margin: 0px auto;
+        padding: 1rem;
+        border-radius: 1.5%;
+    }
+
+    .destacados{
+        font-size: 40px;
+    }
+
+    #productos {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #productos .producto{
+        width: 85% ;
+        height: 250px;
+        border: 2px solid rgb(252, 249, 249);
+    }
+
+    .content{
+        display: none;
+    }
+
+        
+    .pie {
         width: 100%;
         height: 60px;
         color: white;
@@ -278,3 +307,102 @@ body{
         margin-top: 3%;
         border-radius: 2%;
     }
+    
+}
+
+
+/* Inicio de Media Queries del Menu */
+@media (max-width: 480px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 150px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        color: red;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .banner {
+        display: block;
+        clear: none;
+        float: left;
+        width: 100%;
+    }
+
+    #container {
+        width: 100%;
+        max-width: 480px;
+        background: lightgray;
+        margin: 0px auto;
+        padding: 1rem;
+        border-radius: 1.5%;
+    }
+
+    .destacados{
+        font-size: 30px;
+    }
+
+    #productos {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #productos .producto{
+        width: 85% ;
+        height: 200px;
+        border: 2px solid rgb(252, 249, 249);
+    }
+
+    .content{
+        display: none;
+    }
+
+        
+    .pie {
+        width: 100%;
+        height: 60px;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+        background: black;
+        border: 1px solid white;
+        margin-top: 3%;
+        border-radius: 2%;
+    }
+    
+}
+
+
+
+
